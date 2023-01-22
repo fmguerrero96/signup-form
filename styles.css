@@ -19,7 +19,18 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body{
+	display: flex;
+	flex-direction: row;
+}
+
 .side-img{
     width: 40vw;
     height: 100vh;
+	
+}
+
+.right{
+	display: flex;
+	flex-direction: column;
 }
