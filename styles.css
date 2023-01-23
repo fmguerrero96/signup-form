@@ -29,6 +29,16 @@ body{
 	background-color: rgb(248, 252, 255);
 }
 
+.left{
+	background-image: url(travel-bags.jpg);
+	width: 50vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: flex-end;
+}
+
 .side-img{
     width: 40vw;
     height: 100vh;
@@ -126,3 +136,10 @@ button:focus{
 	color: rgb(0, 51, 123);
 	box-shadow: none;
 }
+
+.footer, .a-footer{
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
