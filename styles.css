@@ -21,17 +21,17 @@ time, mark, audio, video {
 
 html{
 	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
 	display: flex;
-	flex-direction: row;
+	background-color: rgb(248, 252, 255);
 }
 
 .side-img{
     width: 40vw;
     height: 100vh;
-	
 }
 
 .right{
@@ -42,11 +42,16 @@ body{
 .disclaimer {
 	margin: 4em 3em 0 2em;
 	font-weight: 900;
+	font-size: 1.5em;
+	color: rgb(0, 62, 124);
 }
 
 .action{
 	margin: 2em 3em 2em 2em ;
 	font-weight: 900;
+	font-size: 1.5em;
+	color: rgb(0, 62, 124);
+
 }
 
 .row{
@@ -58,18 +63,38 @@ body{
 .names, .mail-phone, .passwords{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 1em 0 0 2em;
+	margin: 1em 0 0 3.25em;
 	column-gap: 4em;
 }
 
 .form-title {
-	margin: 2em 3em 2em 2em;
+	margin: 1em 3em 3em 2em;
+	font-size: 1.5em;
+	color: rgb(0, 62, 124);
+	font-weight: 900;
 }
 
 .bottom{
-	margin: 2em 3em 2em 2em;
+	margin: 4em 3em 2em 3.25em;
 }
 
 button{
 	margin-bottom: 2em;
+	background-color: rgb(0, 51, 123);
+	color: rgb(228, 239, 248);
+	font-size: 1.5em;
+	width: 10vw;
+	height: 5vh;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgb(132, 158, 170);
+}
+
+form{
+	margin-top: 2em;
+}
+
+.user-data{
+	background-color: rgb(233, 245, 255);
+	padding: 3em 0 3em 0;
+	box-shadow: 0 5px 5px rgb(132, 158, 170);
 }
